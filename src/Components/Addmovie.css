@@ -1,0 +1,26 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300;500&display=swap');
+
+
+
+.addmo{
+    color: rgb(3, 2, 2);
+   width: 30%;
+    background-color: rgba(255, 255, 255, 0.693);
+    top:100px;
+    padding: 50px;
+    border-radius: 20px;
+    margin-left: 35%;
+    margin-top : 5%;
+    box-shadow: 17px 12px 44px -5px rgba(125,118,118,0.86);
+-webkit-box-shadow: 17px 12px 44px -5px rgba(125,118,118,0.86);
+-moz-box-shadow: 17px 12px 44px -5px rgba(125,118,118,0.86);
+}
+
+
+h3{
+
+    text-align: left;
+    color: rgb(26, 31, 2);
+    font-family: 'Teko', sans-serif;
+}

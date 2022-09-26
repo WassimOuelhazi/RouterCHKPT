@@ -1,0 +1,16 @@
+
+  .row_posters {
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    padding: 20px;  
+    margin: 0 100px;
+    flex-wrap: nowrap;
+    transition: transform 450ms;
+  }
+    
+  .row_posters:hover {
+    transform: scale(1.08);
+  }
+
+ 

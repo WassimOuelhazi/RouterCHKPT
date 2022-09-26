@@ -1,0 +1,333 @@
+.App {
+  text-align: center;
+  background: rgb(0,0,0);
+  background: linear-gradient(144deg, rgba(0,0,0,1) 41%, rgba(65,55,19,0.5536589635854341) 66%, rgba(158,151,19,1) 89%);
+  overflow:hidden ;
+  height: 100vh;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+* {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+
+.topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px rgb(249, 249, 249); 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #FDC600; 
+  border-radius: 10px;
+  
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #000000; 
+
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+* {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+nav a {
+  font-size: 40px;
+  color: #fff;
+  text-decoration: none;
+  padding: 20px;
+  text-align: center;
+}
+
+nav {
+  position: fixed;
+  left: 0;
+  z-index: 50;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  height: 100vh;
+  background: #212931;
+}
+
+.dash {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  justify-self: right;
+  height: 100vh;
+  background-image: url("https://cdn4.vectorstock.com/i/1000x1000/36/28/movie-seamless-pattern-background-vector-13813628.jpg");
+  z-index: -999;
+}
+
+/* === HEADING STYLE #3 === */
+.three h1 {
+  font-size: 40px;
+  
+  background-color: #FDC600;
+  margin-top: 50vh;
+  padding:20px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+ 
+  
+
+}
+.three h1:before {
+  color: #61dafb;
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 5px;
+  width: 55px;
+  background-color: #111;
+}
+.three h1:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 2px;
+  height: 1px;
+  width: 95%;
+  max-width: 255px;
+  background-color: #333;
+}
+.three .link:hover {
+  border-radius: 20px;
+
+  background-color: rgb(75, 77, 93);
+}
+.cardDetails {
+  position: relative;
+  overflow: hidden;
+  width: 50%;
+  height: 450px;
+  margin: 50px auto;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 226, 99, 1) 52%,
+    rgba(226, 226, 52, 1) 100%
+  );
+
+  box-shadow: 0 0 10px #2a264f;
+  border-radius: 25px;
+}
+
+.cardDetails .img1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-size: 310px 440px;
+  background-position: left top;
+  transition: all 0.5s ease-in-out;
+}
+
+
+
+.cardDetails .title {
+  height: 22%;
+  width: 100%;
+  font-size: 50px;
+  text-align: center;
+  font-weight: 700;
+  color: rgba(31, 31, 22, 0.8);
+  padding: 15px 10px;
+  position: top;
+  bottom: 0;
+  left: 0;
+}
+
+.cardDetails .text {
+  position: absolute;
+  bottom: 80px;
+  height: 120px;
+  padding: 15px 10px;
+  text-align: center;
+  font-size: 17px;
+  color: rgb(53, 49, 49);
+  transform: rotate(90deg);
+  transform-origin: 0 100px;
+  opacity: 1;
+  transition: all 0.5s ease;
+}
+
+.cardDetails .catagory {
+  position: absolute;
+  left: 10px;
+  top: 140px;
+  padding: 3px 10px;
+  font-size: 15px;
+  font-weight: 700;
+  text-align: center;
+  background: #2a264f;
+  color: #fff;
+  border-radius: 5px;
+  transform: translate(-160px, 0);
+  transition: all 0.5s ease;
+}
+
+.cardDetails .views {
+  position: absolute;
+  left: 10px;
+  top: 175px;
+  padding: 3px 10px;
+  font-size: 15px;
+  font-weight: 700;
+  text-align: center;
+  background: #8b2463;
+  color: #fff;
+  border-radius: 5px;
+  transform: translate(-160px, 0);
+  transition: all 0.5s ease 0.15s;
+}
+.cardDetails .trailer {
+  position: absolute;
+  left: 10px;
+  top: 175px;
+  padding: 3px 10px;
+  font-size: 15px;
+  font-weight: 700;
+  text-align: center;
+  background: #3f248b;
+  color: #fff;
+  border-radius: 5px;
+  transform: translate(-160px, 0);
+  transition: all 0.5s ease 0.15s;
+  z-index:999;
+  
+}
+
+.cardDetails:hover .img1 {
+  transform: rotate(10deg) scale(1.3) translate(20px, 0);
+  transform-origin: 300px 300px;
+  opacity: 0.5;
+}
+
+.cardDetails:hover .img2 {
+  transform: rotate(90deg) translate(0px, 150px);
+  transform-origin: -20px 200px;
+}
+
+.cardDetails:hover .text {
+  opacity: 0.8;
+  transform: rotate(0deg);
+}
+
+.cardDetails:hover .views,
+.cardDetails:hover .catagory {
+  transform: translate(0);
+}
