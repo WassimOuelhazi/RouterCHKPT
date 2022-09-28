@@ -26,7 +26,7 @@ function App() {
       description:
         "A relentlessly-paced hybrid of gritty crime thriller and Lovecraftian supernatural horror, The Devil's Mile follows a trio of kidnappers who take an ill-advised detour en route to deliver...",
       category: "Action | Crime",
-      trailerUrl:"https://www.youtube.com/watch?v=iGTSDqSLXN0",
+      trailerUrl:"https://www.youtube.com/embed/watch?v=iGTSDqSLXN0",
       __v: 0,
     },
     {
@@ -39,7 +39,7 @@ function App() {
       description:
         "A mysterious stranger with a harmonica joins forces with a notorious desperado to protect a beautiful widow from a ruthless assassin working for the railroad.",
       category: "Western",
-      trailerUrl:"https://www.youtube.com/watch?v=MNGQ1hUyx-k",
+      trailerUrl:"https://www.youtube.com/embed/watch?v=MNGQ1hUyx-k",
       __v: 0,
     },
     {
@@ -52,7 +52,7 @@ function App() {
       description:
         "A mentally unstable veteran works as a nighttime taxi driver in New York City, where the perceived decadence and sleaze fuels his urge for violent action by attempting to liberate a presidential campaign worker and an underage prostitute.",
       category: "Crime | Drama",
-      trailerUrl:"https://www.youtube.com/watch?v=UUxD4-dEzn0",      
+      trailerUrl:"https://www.youtube.com/embed/watch?v=UUxD4-dEzn0",      
       __v: 0,
     },
     {
@@ -65,7 +65,7 @@ function App() {
       description:
         "In a self-destructing world, a vengeful Australian policeman sets out to stop a violent motorcycle gang.",
       category: "Action | Adventure",
-      trailerUrl:"https://www.youtube.com/watch?v=hEJnMQG9ev8",
+      trailerUrl:"https://www.youtube.com/embed/watch?v=hEJnMQG9ev8",
       __v: 0,
     },
     {
@@ -78,7 +78,7 @@ function App() {
       description:
         "A family determined to get their young daughter into the finals of a beauty pageant take a cross-country trip in their VW bus.",
       category: "Comedy | Drama",
-      trailerUrl:"https://www.youtube.com/watch?v=wvwVkllXT80",
+      trailerUrl:"https://www.youtube.com/embed/watch?v=wvwVkllXT80",
       __v: 0,
     },
     {
@@ -91,7 +91,7 @@ function App() {
       description:
         "The lead character, called 'The Bride,' was a member of the Deadly Viper Assassination Squad, led by her lover 'Bill.'The Bride' decided to escape her life as a killer.",
       category: "Action",
-      trailerUrl:" https://www.youtube.com/watch?v=ApMjO0aS3GU",
+      trailerUrl:" https://www.youtube.com/embed/watch?v=ApMjO0aS3GU",
      
       __v: 0,
     },
@@ -105,7 +105,7 @@ function App() {
       description:
         "Based on the true story of Jordan Belfort, from his rise to a wealthy stock-broker living the high life to his fall involving crime, corruption and the federal government.",
       category: "Biography | Crime | Drama",
-      trailerUrl:"https://www.youtube.com/watch?v=iszwuX1AK6A",
+      trailerUrl:"https://www.youtube.com/embed/watch?v=iszwuX1AK6A",
       __v: 0,
     },
   ]);
