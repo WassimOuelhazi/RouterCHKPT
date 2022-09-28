@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import "./Addmovie.css"
+import "./Addmovie.css";
+import { Link } from "react-router-dom";
 
 const AddMovie = ({AddToMovie}) => {
   const [title, setTitle] = useState("");
@@ -57,7 +58,7 @@ const AddMovie = ({AddToMovie}) => {
           setDate(e.target.value);
         }}
       /><br/>
-      <button onClick={ () =>handleAddMovie()} style={{ backgroundColor:"#FDC600",padding: "10px", margin: "30px 0 0 0" , border:"none"}} > Add </button>
+      <button onClick={ () =>handleAddMovie()} style={{ backgroundColor:"#FDC600",padding: "10px", margin: "30px 0 0 0" , border:"none"}} > <Link to="/movieList"> Add film </Link></button>
     </div>
   );
 };
